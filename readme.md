@@ -1,6 +1,8 @@
 # Channel AI (formerly New Dhatu)
 ![Status](https://img.shields.io/badge/status-documentation--only-blue)
-![Scope](https://img.shields.io/badge/scope-research%20prototype-lightgrey)
+![Lifecycle](https://img.shields.io/badge/lifecycle-exploratory-lightgrey)
+![Code](https://img.shields.io/badge/code-not%20public-important)
+
 
 https://github.com/user-attachments/assets/99edbe86-9d74-4563-9033-60a66d59cc98
 
