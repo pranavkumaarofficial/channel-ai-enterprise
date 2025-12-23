@@ -151,7 +151,7 @@ The work here reflects an applied systems exploration rather than a polished pro
 
 ## Naming Note
 
-This project was originally developed under the name **New Dhatu**. It is referred to as **Channel AI** in academic statements and documentation. Both names refer to the same system.
+This project was originally developed under the name **New Dhatu**. It is referred to as **Channel AI** (or simply ChAI) in academic statements and documentation. Both names refer to the same system.
 
 ---
 
