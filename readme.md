@@ -1,4 +1,7 @@
 # Channel AI (formerly New Dhatu)
+> **Status:** Documentation only — no executable code included.  
+> Designed as part of private exploratory pilots with limited deployments.
+
 ![Status](https://img.shields.io/badge/status-documentation--only-blue)
 ![Lifecycle](https://img.shields.io/badge/lifecycle-exploratory-lightgrey)
 ![Code](https://img.shields.io/badge/code-not%20public-important)
