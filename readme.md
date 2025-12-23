@@ -41,11 +41,16 @@ At a high level, the system consisted of:
 - **analysis and summarization agents** that produced persona-specific explanations, summaries, and visualizations  
 - an **orchestration layer** that managed agent state, execution order, and fallback behavior across turns  
 
-Rather than assuming users knew what to ask, the system surfaced follow-up questions and alternative views when requests were ambiguous or underspecified.
-
-<img width="1079" height="627" alt="pic1" src="https://github.com/user-attachments/assets/fa140ea1-d1ae-4549-b520-d22337017ec2" />
+The system surfaced follow-up questions and alternative views when requests were ambiguous or underspecified.
 
 ---
+
+
+**Context and workflow resolution diagram**  
+   Shows how business context, personas, and metadata influence analytical planning.
+<img width="15302" height="9634" alt="dhatu workflow" src="https://github.com/user-attachments/assets/0695c1c4-6d5d-472e-82f4-dbb4c0ba0149" />
+
+
 ### Multi-Agent Orchestration Details
 
 Agent execution was coordinated using a graph-based control flow (LangGraph), enabling conditional routing, retries, and shared state across agents. This allowed the system to:
@@ -93,7 +98,6 @@ Below is an example of an automatically generated sales report produced during p
 - See: [SALES REPORT.pdf](https://github.com/user-attachments/files/24309621/SALES.REPORT.pdf)
 
 
-
 ---
 
 ## Context Visualization and Explainability
@@ -109,13 +113,7 @@ The visualization below illustrates how business entities and attributes were co
 ---
  
 
-## Diagrams Included
-
-The following diagrams are included to document the system design and reasoning flow:
-
-1. **Multi-agent orchestration overview**  
-   High-level view of intent handling, orchestration, and execution boundaries.
-   
+  
 # Context and Workflow Design
 
 A recurring challenge during development was modeling how user intent, business context, and underlying data interact during real analytical workflows.
@@ -123,10 +121,6 @@ A recurring challenge during development was modeling how user intent, business 
 The diagram below illustrates the high-level flow used to reason about personas, business context, and structured data sources. The emphasis was not on automation alone, but on preserving context across user interactions and enabling human-in-the-loop refinement where needed.
 
 <img width="14505" height="6757" alt="flow-diagram" src="https://github.com/user-attachments/assets/42707d8d-2365-4d42-809c-65a6dc466661" />
-
-2. **Context and workflow resolution diagram**  
-   Shows how business context, personas, and metadata influence analytical planning.
-<img width="15302" height="9634" alt="dhatu workflow" src="https://github.com/user-attachments/assets/0695c1c4-6d5d-472e-82f4-dbb4c0ba0149" />
 
 (Additional internal diagrams and iterations are intentionally omitted for clarity.)
 
