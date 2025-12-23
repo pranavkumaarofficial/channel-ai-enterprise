@@ -87,6 +87,11 @@ Reports, plots, and summaries were delivered conversationally rather than throug
 
 Support for regional languages further highlighted how much implicit knowledge most analytics systems assume.
 
+In addition to conversational outputs, the system provided a lightweight interface for browsing insights as summary cards, with the ability to generate plots and structured reports on demand.
+
+<img width="846" height="642" alt="interface UI" src="https://github.com/user-attachments/assets/15ba9681-efac-4a92-a6d9-e525653b2683" />
+
+
 ---
 
 ## Architectural Notes
