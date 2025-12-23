@@ -9,6 +9,11 @@ The project emerged from a recurring observation: most analytics tools assume us
 
 Channel AI was an attempt to design analytics systems that *guide exploration*, rather than simply execute queries.
 
+---
+
+## Naming Note
+
+This project was originally developed under the name **New Dhatu**. It is referred to as **Channel AI** (or simply ChAI) in academic statements and documentation. Both names refer to the same system.
 
 ---
 
@@ -149,14 +154,19 @@ The work here reflects an applied systems exploration rather than a polished pro
 
 ---
 
-## Naming Note
-
-This project was originally developed under the name **New Dhatu**. It is referred to as **Channel AI** (or simply ChAI) in academic statements and documentation. Both names refer to the same system.
-
----
-
 ## Disclaimer
 
 This repository is intended for documentation and reference purposes. It is not a production-ready system and should not be treated as a drop-in analytics solution.
 This repository is not intended to demonstrate implementation completeness or benchmark performance, but to document system design decisions and the evolution of ideas that informed later research and engineering work.
+
+## Code Availability
+
+This repository is documentation-first and intentionally excludes the full
+implementation.
+
+The original system was developed as part of private pilot deployments and
+contains credentials, proprietary integrations, and infrastructure bindings
+that cannot be publicly released. Backend code is therefore excluded or
+redacted in line with standard enterprise and security practices.
+
 
