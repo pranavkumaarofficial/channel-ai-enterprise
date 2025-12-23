@@ -79,13 +79,7 @@ Support for regional languages further highlighted how much implicit knowledge m
 
 Under the hood, Channel AI coordinated multiple components responsible for intent planning, context resolution, dataset selection, and execution.
 
-As pilot usage expanded, several hard problems became clear:
-
-- semantic alignment across heterogeneous schemas  
-- reasoning over categorical and numeric variables spanning multiple tables  
-- coordinating analytics across loosely connected data sources  
-- deciding when to stop context expansion without overwhelming execution
-- 
+As pilot usage expanded, several hard problems emerged around semantic alignment, cross-table reasoning, and managing context growth across loosely connected data sources.
 The system operated over a unified analytical layer built on **Apache Iceberg**, allowing consistent schema access across relational databases and flat files while supporting multi-million row analytical workloads.
 
 These limitations directly shaped later research directions around context modeling and lightweight graph-based reasoning, where relationships are made explicit without relying on full graph traversal at scale.
