@@ -16,7 +16,7 @@ I built it, deployed it 12 times with real teams, and eventually shut it down as
 If you are building in this space, three sections below are the ones I wish someone had written for me: [where simple SQL breaks](#where-simple-sql-breaks), [transient intermediate tables](#transient-querying-the-biggest-lesson), and [federated querying](#federated-querying-one-question-across-excel-postgres-and-bigquery).
 
 ---
-
+ 
 ## The problem, stated plainly
 
 Every analytics tool assumes the user already knows three things: what question to ask, how the data is organized, and what the metrics actually mean. Outside of data teams, none of those hold.
