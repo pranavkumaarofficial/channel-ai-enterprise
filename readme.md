@@ -1,4 +1,4 @@
-# Channel AI
+# Channel AI (Insights over ChAI)
 
 > **Status:** documentation only. The implementation is private; this repo is the case study.
 > Built and run across 12 private pilot deployments with small and mid-sized teams.
