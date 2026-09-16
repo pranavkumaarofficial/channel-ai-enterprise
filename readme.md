@@ -1,4 +1,4 @@
-# Channel AI (Insights over ChAI)
+# Channel AI (Insights over ChAI) [Formerly New Dhatu]
 
 > **Status:** documentation only. The implementation is private; this repo is the case study.
 > Built and run across 12 private pilot deployments with small and mid-sized teams.
